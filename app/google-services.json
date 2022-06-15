@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "199509173279",
+    "project_id": "inugami-41f44",
+    "storage_bucket": "inugami-41f44.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:199509173279:android:3daaaa3791e8e000c6212a",
+        "android_client_info": {
+          "package_name": "com.taller.ngen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "199509173279-tk9273pdrevoc36e09i47ond0n11cdb3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAO1O3Y4OHAp2UjD4GzAnJPWqFjpVaNoOo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "199509173279-tk9273pdrevoc36e09i47ond0n11cdb3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

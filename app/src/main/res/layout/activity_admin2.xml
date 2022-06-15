@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".adminActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/nameUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:hint="Usuario"
+            android:textAlignment="center"
+            android:textSize="20dp"/>
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Solicita un inspector para necesidades administrativas
+o situaciones de bajo nivel"
+            android:layout_margin="20dp"
+            android:textAlignment="center"
+            android:textSize="15dp"/>
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textAlignment="center"
+            android:background="@drawable/cuadroborde"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"/>
+
+
+        <Button
+            android:id="@+id/btnInspec"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Solicitar Inspector"
+            android:background="@drawable/cuadroborde"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="15dp"/>
+
+
+
+        <Button
+            android:id="@+id/btnCitacion"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/cuadroborde"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="40dp"
+            android:text="Citaciones" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Utilice este menú para realizar citaciones de apoderados"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:textAlignment="center"
+            android:textSize="15dp"/>
+
+        <Button
+            android:id="@+id/btnVisitas"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/cuadroborde"
+            android:text="Autorizar Visitas" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Utilice este menú para programar visitas autorizadas al liceo"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"/>
+
+        <Button
+            android:id="@+id/btnRegistrar"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/cuadroborde"
+            android:text="Registrar Usuario Nuevo" />
+
+        <TextView
+            android:id="@+id/textView4s"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Utilice este menú para crear nuevos usuarios"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"/>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
